@@ -352,7 +352,7 @@ elseif(USE_PRECOMPILED_VTK)
       set(vtk_package_md5 00000000000000000000000000000000)
       set(vtk_package_version 7.1)
     endif()
-  elseif(ubuntu_version EQUAL 18.04)
+  elseif(ubuntu_version EQUAL 18.04.5)
     if(DD_QT_VERSION EQUAL 4)
       message(FATAL_ERROR "Compiling director with Qt4 is not supported on Ubuntu 18.04. "
                "Please set DD_QT_VERSION to 5.")
