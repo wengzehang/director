@@ -18,7 +18,7 @@ option(USE_SYSTEM_LIBBOT "Use system version of libbot.  If off, libbot will be 
 option(USE_SYSTEM_PCL "Use system version of pcl.  If off, pcl will be built." OFF)
 option(USE_SYSTEM_VTK "Use system version of VTK.  If off, VTK will be built." OFF)
 if(NOT USE_SYSTEM_VTK AND NOT APPLE)
-  option(USE_PRECOMPILED_VTK "Download and use precompiled VTK.  If off, VTK will be compiled from source." ON)
+  option(USE_PRECOMPILED_VTK "Download and use precompiled VTK.  If off, VTK will be compiled from source." OFF)
 endif()
 
 option(BUILD_SHARED_LIBS "Build director and externals with shared libraries." ON)
