@@ -96,7 +96,7 @@ if (NOT USE_SYSTEM_EIGEN)
 ExternalProject_Add(
   eigen
   URL https://gitlab.com/libeigen/eigen/-/archive/3.3.9/eigen-3.3.9.tar.gz
-  URL_MD5 f21cee193e15e55cfd15ebbc16fc00a7
+  URL_MD5 609286804b0f79be622ccf7f9ff2b660
   CMAKE_CACHE_ARGS
     ${default_cmake_args}
     ${qt_args}
